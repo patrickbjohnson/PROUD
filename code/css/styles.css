@@ -1,0 +1,150 @@
+/* Global */
+.border {
+	border: 1px solid blue;
+}
+
+html {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* Fonts */
+h1, h2, h3, h4
+h5, h6, p	{
+	color: rgba(255,255,255, .8);
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-family:"Din Display Cyrillic Bold", Verdan, sans-serif; 
+	font-weight:bold; 
+	font-style:normal;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+
+p {
+	font-family: georgia;
+
+}
+
+/* Navigation */
+nav {
+	height: 50px;
+}
+nav ul {
+	float: right;
+}
+nav li {
+	font-size: .750em;
+	list-style: none;
+	display: inline;
+	margin: 0px 5px;
+	font-family: georgia;
+	float: left;
+	color: #fff;
+}
+/* Links */
+
+a:link 		{color: #fff; font-weight: bold; text-decoration: none;}
+a:active 	{color: #fff; font-weight: bold; text-decoration: none;}
+a:hover		{color: #fff; font-weight: bold; text-decoration: none;}
+a:visited	{color: #fff; font-weight: bold; text-decoration: none;}
+
+/* Buttons */
+
+/* General */
+.slide {
+	max-height: 100%;
+	max-width: 100%;
+	padding: 175px;
+	width: 850px;
+	text-align: center;
+}
+
+.slide h2 {
+	font-size: 2.500em;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+	font-size: .650em;
+}
+/* Home Slide */
+.home {
+	max-width: 100%;
+	width: 600px;
+	text-align: center;
+	margin: auto;
+}
+
+
+/* Services Slide */
+.services p {
+	font-size: 1.650em;
+}
+
+
+/* Clients Slide */
+
+.client-list li {
+	display: inline;
+	list-style: none;
+	margin: auto;
+	float: left;
+}
+
+.row {
+	margin: auto;
+	clear:both;
+}
+
+.row li {
+	margin: 25px 50px;
+}
+
+/* Contact Slide */
+.contact {
+	text-align: center;
+	clear: both;
+}
+
+
+.contact p {
+	font-size: 1.650em;
+}
+.contact ul li {
+	list-style: none;
+	display: inline-block;
+	margin: auto 10px;
+	font-size: 2em;
+
+}
+
+.newbiz {
+	font-size: .750em;
+}
+
+
