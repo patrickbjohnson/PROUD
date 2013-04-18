@@ -1,0 +1,129 @@
+/* Global */
+.border {
+	border: 1px solid red;
+}
+
+html {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
+/* Type Stylings */
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-family:"Din Display Cyrillic Bold", Verdan, sans-serif; 
+	font-weight:bold; 
+	font-style:normal;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+	font-size: 10em;
+	margin-bottom: 70px;
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 5em;
+}
+
+p {
+	font-family: Georgia, times, serif;
+	line-height: 1.500em;
+	font-size: 1.500em;
+	color: #fff;
+}
+
+
+/* Navigation */
+
+nav {
+	float: right;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	font-family: Georgia, times, serif;
+	font-size: .750em;
+	padding: 10px 5px;
+	margin: 10px;
+	float: left;
+}
+
+
+/* Links */
+a:link 		{color: #fff; font-weight: bold; text-decoration: none;}
+a:active 	{color: #fff; font-weight: bold; text-decoration: none;}
+a:hover		{color: #fff; font-weight: bold; text-decoration: none;}
+a:visited	{color: #fff; font-weight: bold; text-decoration: none;}
+
+/* General */
+.wrapper {
+	max-width: 1024px;
+	margin: auto;
+}
+
+.slide {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 200px 0;
+	margin: auto;
+}
+
+.contents {
+	max-width: 700px;
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	line-height: 1.500em;
+}
+
+.contents li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+/* Home Slide */
+
+/* Services Slide */
+
+/* Clients Slide */
+.row li{
+	padding: 15px;
+}
+
+/* Contact Slide */
+.social {
+	color: #fff;
+}
+
+.social li {
+	padding-top: 15px;
+	font-size: 2.250em;
+}
+
+
+
+
+/* Footer */
+
+footer p {
+	font-size: .500em;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.5);
+}
+
+
+

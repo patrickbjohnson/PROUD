@@ -14,80 +14,73 @@
 
         <!-- CSS Files -->
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/webfonts/ss-social.css">
-
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    <div class="wrapper ">
-        <nav>
-            <ul>
-                <li><a href="#services">services</a></li>
-                <li><a href="#clients">clients</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav><!-- navigation -->
-            
-        <div class="home slide">
-                <h1>proud</h1> 
-                <p><em>Your mother's favorite digital shop</em></p>
-        </div><!-- hero -->
-
-        <div class="services slide" id="services">
-            <h2>design &amp; development</h2>
-            <p>We don’t charge our clients for thinking and call it “strategy."</p>
-            <p>We don’t upcharge our services just to have the neon-lit pool table and “innovation room.”</p>
-            <p>PROUD ships quality products to change the world -  through pixels and code.</p>   
+    <div class="wrapper">
+        <nav class="animated fadeIn">
+            <li><a href="#services">what we do</a></li>
+            <li><a href="#clients">clients</a></li>
+            <li><a href="#contact">contact</a></li>
+        </nav>
+        <div class="home slide" >
+            <div class="contents">
+                <h1>proud</h1>
+            </div>
+        </div><!-- home slide -->
+        <div class="slide" id="services">
+            <div class="contents">
+                <h2>what we do</h2>
+                <p></p>
+                <p>We design &amp; develop digital experiences for desktop, tablet and mobile devices</p>
+                <p>We work with clients to make their wildest dreams come true<p>
+                <p>Most importantly, we ship quality products that make us proud</p>
+            </div>
         </div><!-- services slide -->
-
-        <div class="clients slide" id="clients">
-            <h2>clients</h2>
-            <div class="client-list">
-                <div class="row">
-                    <li><img src="images/google.png"/></li>
-                    <li><img src="images/hbo.png"/></li>
-                    <li><img src="images/emirates.png"/></li>
-                </div>
-                <div class="row">
-                    <li><img src="images/travelers.png"/></li>
-                    <li><img src="images/levis.png"/></li>
-                    <li><img src="images/nescafe.png"/></li>
-                </div>
-                <div class="row">
-                    <li><img src="images/predators.png"/></li>
-                    <li><img src="images/lenovo.png"/></li>
-                    <li><img src="images/morganstanley.png"/></li>
+        <div class="slide " id="clients">
+            <div class="contents ">
+                <h2>clients</h2>
+                <div class="client-list ">
+                    <div class="row">
+                        <li><img src="images/google.png"/></li>
+                        <li><img src="images/hbo.png"/></li>
+                        <li><img src="images/emirates.png"/></li>
+                    </div>
+                    <div class="row">
+                        <li><img src="images/travelers.png"/></li>
+                        <li><img src="images/levis.png"/></li>
+                        <li><img src="images/nescafe.png"/></li>
+                    </div>
+                    <div class="row">
+                        <li><img src="images/predators.png"/></li>
+                        <li><img src="images/lenovo.png"/></li>
+                        <li><img src="images/morganstanley.png"/></li>
+                    </div>
                 </div>
             </div>
         </div><!-- clients slide -->
-
-        <div class="contact slide" id="contact">
-            <h2>contact</h2>
-            <p>It's 2013, you know the drill.</p>
-            <div class="contact ss-icon ">
-                <ul>
+        <div class="slide" id="contact">
+            <div class="contents">
+                <h2>contact</h2>
+                <p>It's 2013, you know the drill.</p>
+                <div class="ss-icon social">
                     <li><a href="#">email</a></li>
+                    <li><a href="#">skype</a></li>
                     <li><a href="#">facebook</a></li>
                     <li><a href="#">twitter</a></li>
                     <li><a href="#">linkedin</a></li>
-                </ul>
-                <span class="newbiz"><p>For new business opportunities, feel free to shoot us an <a href="mailto:im@pbj.me?subject=Let's Work Together">email</a></p>
-                </span>
+                </div>
             </div>
         </div><!-- contact slide -->
-        
-        
-
-
-
-    </div><!-- end wrapper -->
-    <footer>     
-            <p>&copy;2013</p>
-            <p>hand coded in the heart of NYC</p>
-    </footer>
+    </div> 
+    <footer>
+        <p>proud nyc &copy; 2013</p>
+    </footer><!-- footer -->
 
         
 
@@ -95,10 +88,6 @@
 
 
     <!-- Javascript Files -->
-
-    
-
-
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
@@ -114,12 +103,6 @@
       s.parentNode.insertBefore(wf, s);
     })();
     </script>
-    
-    <script>
-      $("#hero").fitText(.4);
-    </script>
-
-
 
     </body>
 </html>
