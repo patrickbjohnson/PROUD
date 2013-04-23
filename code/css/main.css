@@ -4,15 +4,17 @@
 }
 
 html {
-	background-image: url("../images/bg.jpg");
+	background-image: url("../images/city.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: 50% 40%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	width: 100%;
 }
+
 
 /* Type Stylings */
 
@@ -32,39 +34,41 @@ h1 {
 }
 
 h2 {
-	font-size: 5em;
+	font-size: 4em;
 }
 
 p {
-	font-family: Georgia, times, serif;
+	font-family: "Lora" Georgia, times, serif;
 	line-height: 1.500em;
 	font-size: 1.500em;
-	color: #fff;
+	color: #fbfafa;
 }
 
 
 /* Navigation */
 
 nav {
-	float: right;
+	margin: 20px;
+	position: fixed;
 }
 
 nav li {
 	list-style: none;
-	display: inline-block;
 	font-family: Georgia, times, serif;
-	font-size: .750em;
-	padding: 10px 5px;
-	margin: 10px;
-	float: left;
+	font-size: .675em;
+	padding: 5px 5px;
+	font-family: "Lora" Georgia, times, serif;
+	letter-spacing: 1px;
+	
 }
 
 
 /* Links */
-a:link 		{color: #fff; font-weight: bold; text-decoration: none;}
-a:active 	{color: #fff; font-weight: bold; text-decoration: none;}
-a:hover		{color: #fff; font-weight: bold; text-decoration: none;}
-a:visited	{color: #fff; font-weight: bold; text-decoration: none;}
+a:link 		{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: none;}
+a:active 	{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: none;}
+a:hover		{color: rgba(255,255,255,1); font-weight: bold; text-decoration: none;}
+a:visited	{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: none;}
+
 
 /* General */
 .wrapper {
@@ -94,26 +98,37 @@ a:visited	{color: #fff; font-weight: bold; text-decoration: none;}
 	vertical-align: middle;
 }
 
+
 /* Home Slide */
 
 /* Services Slide */
+
+.services li {
+	height: 150px;
+	width: 150px;
+	margin: 20px 20px 50px 20px;
+	border-radius: 50%;
+	border: 5px solid rgba(255,255,255,0.7);
+	color: rgba(255,255,255,0.7);
+}
+
+.services li i {
+	font-size: 75px;
+		line-height: 150px;
+}
 
 /* Clients Slide */
 .row li{
 	padding: 15px;
 }
 
+
 /* Contact Slide */
-.social {
-	color: #fff;
-}
 
 .social li {
 	padding-top: 15px;
 	font-size: 2.250em;
 }
-
-
 
 
 /* Footer */
@@ -126,4 +141,64 @@ footer p {
 }
 
 
+/*=================*\ 
+		Mobile 
+\*=================*/
+@media only screen and (max-width: 480px) {
 
+/* Type Stylings */
+
+
+h1 {
+	font-size: 5em;
+
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 3em;
+	line-height: 1.500em;
+}
+
+p {
+	font-family: "Lora" Georgia, times, serif;
+	line-height: 1.500em;
+	font-size: 1em;
+	color: #fbfafa;
+}
+
+/* Navigation */
+
+
+
+
+nav {
+	width: 100%;
+	margin: 10px auto;
+	list-style: none;
+	text-align: center;
+	position: relative;
+}
+
+nav li{
+	display: inline-block;
+}
+
+/* Services Slide */
+
+.services li {
+	height: 150px;
+	width: 150px;
+	margin: 20px 20px 50px 20px;
+	border-radius: 50%;
+	border: 5px solid rgba(255,255,255,0.7);
+	color: rgba(255,255,255,0.7);
+}
+
+.services li i {
+	font-size: 75px;
+	line-height: 150px;
+}
+
+
+}

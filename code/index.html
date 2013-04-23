@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>PROUD - your mother's favorite agency</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -16,7 +16,11 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/webfonts/ss-social.css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+        
+        <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -24,28 +28,27 @@
         <![endif]-->
     <div class="wrapper">
         <nav class="animated fadeIn">
-            <li><a href="#services">what we do</a></li>
-            <li><a href="#clients">clients</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a class="1" href="#services">what we do</a></li>
+            <li><a class="2" href="#clients">clients</a></li>
+            <li><a class="3" href="#contact">contact</a></li>
         </nav>
-        <div class="home slide" >
+        <div class="home slide">
             <div class="contents">
                 <h1>proud</h1>
             </div>
         </div><!-- home slide -->
         <div class="slide" id="services">
-            <div class="contents">
+            <div class="contents services">
                 <h2>what we do</h2>
-                <p></p>
-                <p>We design &amp; develop digital experiences for desktop, tablet and mobile devices</p>
-                <p>We work with clients to make their wildest dreams come true<p>
-                <p>Most importantly, we ship quality products that make us proud</p>
+                <li><i class="icon-brush"></i><p>Pixel-perfect design</p></li>
+                <li><i class="icon-code"></i><p>Ship quality code</p></li>
+                <li><i class="icon-earth"></i><p>Change the world</p></li>
             </div>
         </div><!-- services slide -->
-        <div class="slide " id="clients">
-            <div class="contents ">
+        <div class="slide" id="clients">
+            <div class="contents">
                 <h2>clients</h2>
-                <div class="client-list ">
+                <div class="client-list">
                     <div class="row">
                         <li><img src="images/google.png"/></li>
                         <li><img src="images/hbo.png"/></li>
@@ -60,6 +63,7 @@
                         <li><img src="images/predators.png"/></li>
                         <li><img src="images/lenovo.png"/></li>
                         <li><img src="images/morganstanley.png"/></li>
+                        <li class="square"></li>
                     </div>
                 </div>
             </div>
@@ -69,11 +73,11 @@
                 <h2>contact</h2>
                 <p>It's 2013, you know the drill.</p>
                 <div class="ss-icon social">
-                    <li><a href="#">email</a></li>
-                    <li><a href="#">skype</a></li>
-                    <li><a href="#">facebook</a></li>
-                    <li><a href="#">twitter</a></li>
-                    <li><a href="#">linkedin</a></li>
+                    <li><a class="email" href="#">email</a></li>
+                    <li><a class="skype" href="#">skype</a></li>
+                    <li><a class="facebook" href="#">facebook</a></li>
+                    <li><a class="twitter" href="#">twitter</a></li>
+                    <li><a class="linkedin" href="#">linkedin</a></li>
                 </div>
             </div>
         </div><!-- contact slide -->
@@ -81,16 +85,14 @@
     <footer>
         <p>proud nyc &copy; 2013</p>
     </footer><!-- footer -->
-
-        
-
-    
-
+    </div>
 
     <!-- Javascript Files -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/main.js"></script>
     <script type="text/javascript">
     WebFontConfig = { fontdeck: { id: '32173' } };
     (function() {
