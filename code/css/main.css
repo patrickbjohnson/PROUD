@@ -1,8 +1,4 @@
 /* Global */
-.border {
-	border: 1px solid red;
-}
-
 html {
 	background-image: url("../images/city.jpg");
 	background-repeat: no-repeat;
@@ -15,9 +11,7 @@ html {
 	width: 100%;
 }
 
-
 /* Type Stylings */
-
 h1, h2, h3,
 h4, h5, h6 {
 	font-family:"Din Display Cyrillic Bold", Verdan, sans-serif; 
@@ -44,9 +38,7 @@ p {
 	color: #fbfafa;
 }
 
-
 /* Navigation */
-
 nav {
 	margin: 20px;
 	position: fixed;
@@ -59,16 +51,13 @@ nav li {
 	padding: 5px 5px;
 	font-family: "Lora" Georgia, times, serif;
 	letter-spacing: 1px;
-	
 }
-
 
 /* Links */
 a:link 		{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: none;}
 a:active 	{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: none;}
 a:hover		{color: rgba(255,255,255,1); font-weight: bold; text-decoration: none;}
 a:visited	{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: none;}
-
 
 /* General */
 .wrapper {
@@ -98,11 +87,7 @@ a:visited	{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: non
 	vertical-align: middle;
 }
 
-
-/* Home Slide */
-
 /* Services Slide */
-
 .services li {
 	height: 150px;
 	width: 150px;
@@ -122,17 +107,13 @@ a:visited	{color: rgba(255,255,255,0.6); font-weight: bold; text-decoration: non
 	padding: 15px;
 }
 
-
 /* Contact Slide */
-
 .social li {
 	padding-top: 15px;
 	font-size: 2.250em;
 }
 
-
 /* Footer */
-
 footer p {
 	font-size: .500em;
 	text-align: center;
@@ -147,11 +128,8 @@ footer p {
 @media only screen and (max-width: 480px) {
 
 /* Type Stylings */
-
-
 h1 {
 	font-size: 5em;
-
 	padding-top: 50px;
 }
 
@@ -168,10 +146,6 @@ p {
 }
 
 /* Navigation */
-
-
-
-
 nav {
 	width: 100%;
 	margin: 10px auto;
@@ -185,7 +159,6 @@ nav li{
 }
 
 /* Services Slide */
-
 .services li {
 	height: 150px;
 	width: 150px;
